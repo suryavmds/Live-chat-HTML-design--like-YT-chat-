@@ -8,6 +8,7 @@ I got inspiration from Youtube's Live chat ui and implemented this
 * Easy to implement in any projects
 * Easily understandable by developer
 * Dark UI Design (Night mode)
+* Message report and block dropdown
 * Highlight admin message
 * Pin any message
 
