@@ -1,0 +1,209 @@
+/*<!----------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------->
+<!--                     AUTHOR     : SURYA PRAKASH V                                          -->
+<!--                     INSTAGRAM  : @suryavmds                                               -->
+<!--                     GITHUB     : https://github.com/suryavmds                             -->
+<!----------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------->*/
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-wrapper{
+    background-color: #080A0D;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items:center;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+    background-color: #27282F;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #40404B;
+    border-radius: 30px;
+}
+/*-----------------------LIVE CHAT-------------------------*/
+.cgl-live-chat{
+    max-width: 550px;
+}
+.cgl-live-chat .chat-wrapper {
+    background-color: #141921;
+    border: 8px solid #141921;
+    box-sizing: border-box;
+}
+
+.cgl-live-chat .chat-wrapper .chat-title {
+    padding: 10px;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #9FADC5;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view {
+    background-color: #11151A;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+    /*    justify-content: flex-end;*/
+}
+
+.cgl-live-chat .chat-wrapper .chat-item {
+    padding: 5px;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view .sender-name a {
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #ADADAD;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view .sender-name a:hover {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view .admin-tag a {
+    background-color: #4368EA !important;
+    color: #FFFFFF !important;
+    border-radius: 9px;
+    padding: 0 8px;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view .chat-time {
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 11px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #585C61;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view .chat-time i {
+    display: none;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view .chat-pinned {
+    border: 2px solid #7389DC;
+    box-sizing: border-box;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #11151A;
+}
+
+.chat-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view .chat-pinned .chat-time i {
+    display: inline;
+}
+
+.cgl-live-chat .chat-wrapper .chat-view .chat-text {
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 3px;
+    color: #9FADC5;
+}
+
+.cgl-live-chat .chat-wrapper .chat-message {
+    background-color: #23272D;
+    padding: 6px;
+}
+
+.cgl-live-chat .chat-wrapper .chat-message input {
+    background-color: transparent;
+    border: none !important;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #585C61;
+    outline: none !important;
+}
+
+.cgl-live-chat .chat-wrapper .chat-message button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.cgl-live-chat .chat-wrapper .dropdown-menu{
+    background-color: #141921;
+}
+.cgl-live-chat .chat-wrapper .dropdown-menu .dropdown-item{
+    color: #9FADC5;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 300;
+}
+.cgl-live-chat .chat-wrapper .dropdown-menu .dropdown-item:hover{
+    background-color: #1C232E;
+}
+@media(max-width:450px) {
+    .cgl-live-chat .chat-wrapper .chat-view {
+        max-height: 300px;
+    }
+
+    .cgl-live-chat .chat-wrapper .chat-view img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cgl-live-chat .chat-wrapper .chat-view .sender-name a {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .cgl-live-chat .chat-wrapper .chat-view .chat-time {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .cgl-live-chat .chat-wrapper .chat-view .chat-text {
+        font-size: 12px;
+        line-height: 12px;
+        padding: 3px;
+    }
+}
+
+.dropdown-btn{
+ background-color: transparent;
+    color: #585C61;
+    border: none;
+    outline: none !important;
+}
