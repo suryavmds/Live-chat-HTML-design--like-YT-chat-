@@ -11,4 +11,10 @@ I got inspiration from Youtube's Live chat ui and implemented this
 * Highlight admin message
 * Pin any message
 
-![Preview](https://drive.google.com/file/d/1vlmltkOwNCVtVHNY6K27FvP0a0KaLBsP/view?usp=sharing)
+![Preview](https://github.com/suryavmds/Live-chat-HTML-design--like-YT-chat-/blob/master/assets/img/image%2025.png?raw=true)
+
+### How to highlight admin message
+Add the class name "admin-tag" in sender-name to highlight the admin message
+```
+.admin-tag
+```
